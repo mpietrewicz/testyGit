@@ -6,5 +6,6 @@ public class MainImp {
         Timer timer = new Timer();
         Thread thread = new Thread(timer);
         thread.start();
+        System.out.println("Start");
     }
 }
